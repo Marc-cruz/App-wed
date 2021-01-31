@@ -1,0 +1,14 @@
+﻿@model List<App_wed.Models.EntradasModel>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Entradas</h2>
+
+
+@foreach (var Entradas in Model)
+{
+    <p>@Entradas.Descricion</p>
+}
+
+
